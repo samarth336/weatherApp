@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="main_container">
+        <header class="input_container">
+            <input class="input" placeholder="Search">
+            <button><span class="material-symbols-outlined">
+                    search
+                </span></button>
+        </header>
+        <section class="weather">
+            <div class="box">
+                <div class="location_data">
+                    <div class="location">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <h4 class="city">India</h4>
+                    </div>
+                    <h5>Mon,24 Feb</h5>
+                </div>
+                <div class="img_degree">
+                    <div class="image">
+                    </div>
+                    <div class=" temp">
+                        <p class="numbtemp">0℃</p>
+                        <p>clouds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info box">
+                <div class="icon">
+                    <p><i class="fa-solid fa-droplet"></i></p>
+                </div>
+                <div class="Humidity">
+                    <p>Humidity</p>
+                    <p class="Humidityy">0</p>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    wind Speed
+                    <p class="windspeed">0</p>
+
+                </div>
+
+            </div>
+
+            <div class="scroll">
+                <div class="react">
+                    <p>Wind Direction</p>
+                    <h3 class="winddir" style="margin-bottom: 1px;">0</h3>
+                </div>
+                <div class="react">
+                    <p>Visibility <br></p>
+                    <h3 class="visibility" style="margin-top: 20px;">0</h3>
+                </div>
+                <div class="react">
+                    <p>Rain Intensity</p>
+                    <h3 class="rain">0<span style="font-size: 6px;">mm/hr</span></h3>
+                </div>
+                <div class="react">
+                    <p>Dew Point</p>
+                    <h3 class="dewpoint">0</h3>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
