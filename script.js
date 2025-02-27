@@ -6,7 +6,7 @@ let btn = document.querySelector("button");
 btn.addEventListener("click", () => {
     city = document.querySelector("input").value;
     place(city); // Update UI with searched city
-    // weather();
+    weather();
 });
 
 // Update City Name in UI
